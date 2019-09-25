@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ticktacktoe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Классические крестики-нолики</h1>
+
+        </div>
+
+        <div class="main">
+            <div class="game-field">
+                <table>
+                    <tr>
+                        <td>0</td>
+                        <td class="cellWithX">0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td class="cellWithZero"> </td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="control-panel">
+
+                <form>
+                    <label for="dimension-x-input">Количество клеток по ширине</label>
+                    <input type="number" name="dimension-x-input">
+                    <label for="dimension-y-input">Количество клеток по высоте</label>
+                    <input type="number" name="dimension-y-input">
+                    <label for="length-to-win">Количество (крестиков/ноликов) в ряд для победы</label>
+                    <input type="number" name="length-to-win">
+                    <button>Начать игру заново</button>
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, aliquam totam blanditiis vitae necessitatibus
+            dignissimos tenetur quasi ratione dolores aperiam, nam voluptates! Quas earum illo odit, tenetur quasi
+            recusandae laboriosam?
+        </footer>
+
+        <div class="statusWindow">
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, cum delectus! Alias nulla modi
+                aut
+                explicabo ipsa, nemo a voluptates.
+            </div>
+            <button>Закрыть</button>
+        </div>
+    </div>
+    <script src="dist/app.js">
+
+    </script>
+</body>
+
+</html>
